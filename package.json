@@ -1,0 +1,19 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "Good old-school game",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "dev": "webpack   --mode development",
+    "build": "webpack --mode production",
+    "start": "npm run dev && webpack-dev-server"
+  },
+  "author": "Vitalii Khatiushyn",
+  "license": "ISC"
+}
