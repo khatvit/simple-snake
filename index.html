@@ -1,0 +1,41 @@
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128286769-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128286769-1');
+</script>    
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <title>Snake game</title>
+  </head>
+  <body>
+        <div class="content">
+            <div class="canvas-container">
+                <canvas id="canvas"></canvas>
+                <div class="menu" id="menu">
+                    <div id="game-start">
+                        <h1>Ready?</h1>
+                    </div>
+                    <div id="game-lost" class="hidden">
+                        <h1>you loose!</h2>
+                    </div>
+                    <div id="game-won" class="hidden">
+                        <h1>You won!!!</h1>
+                    </div>
+                    <button type="button" id="start-game-button">Play</button>
+                </div>
+            </div>
+            <div class="stats">
+                <h1 id="score"></h1>
+                <h1 id="snake-length"></h1>
+            </div>
+        </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+:root {
+  --pumpkin: #FF8C00;
+  --coffee: #B1896A;
+  --dark-coffee: #3D2B26;
+  --cream: #FFF6E8;
+}
+
+body {
+  background-color: var(--cream);
+}
+canvas {
+  border: 2px solid var(--pumpkin);
+  position: relative;
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--dark-coffee);
+  font-family: 'Bungee Inline';
+}
+
+button {
+  padding: 10px 15px;
+  font-family: 'Bungee Inline', cursive;
+
+}
+.canvas-container {
+  position: relative;
+}
+
+.hidden {
+display: none !important;
+}
+
+.menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: .9;
+  background-color: var(--cream);
+  justify-content: center;
+  align-items: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
